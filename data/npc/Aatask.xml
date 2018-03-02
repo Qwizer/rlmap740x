@@ -1,0 +1,7 @@
+<npc name="Radrik" script="Aatask.lua" walkinterval="2500" floorchange="0" access="5" level="1" maglevel="1">
+<health now="150" max="150"/>
+	<look type="128" head="98" body="87" legs="12" feet="114" addons="0" corpse="2212"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|. want to do a {task}? or {leave}? can also {reward} she ended up awards!" />
+</parameters>
+</npc>

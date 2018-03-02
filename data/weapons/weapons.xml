@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>	
+	<!-- Swords -->
+	<melee id="2390" function="default"/>
+	<melee id="2392" function="default"/>
+	<melee id="2393" function="default"/>
+	<melee id="2396" function="default"/>
+	<melee id="2400" function="default"/>
+	<melee id="2407" function="default"/>
+	<melee id="2408" function="default"/>
+	<melee id="2413" function="default"/>
+	<melee id="2438" function="default"/>
+	<melee id="2446" function="default"/>
+	<melee id="2451" function="default"/>
+	<melee id="2377" function="default"/>
+	<melee id="3963" function="default"/>
+
+	<!-- Axes -->
+	<melee id="2378" function="default"/>
+	<melee id="2381" function="default"/>
+	<melee id="2387" function="default"/>
+	<melee id="2414" function="default"/>
+	<melee id="2415" function="default"/>
+	<melee id="2425" function="default"/>
+	<melee id="2426" function="default"/>
+	<melee id="2427" function="default"/>
+	<melee id="2429" function="default"/>
+	<melee id="2430" function="default"/>
+	<melee id="2431" function="default"/>
+	<melee id="2432" function="default"/>
+	<melee id="2435" function="default"/>
+	<melee id="2440" function="default"/>
+	<melee id="2443" function="default"/>
+	<melee id="2447" function="default"/>
+	<melee id="2454" function="default"/>
+	<melee id="3962" function="default"/>
+	<melee id="3964" function="default"/>
+	<melee id="3965" function="default"/>
+	
+	<!--Clubs -->
+	<melee id="2391" function="default"/>
+	<melee id="2421" function="default"/>
+	<melee id="2423" function="default"/>
+	<melee id="2424" function="default"/>
+	<melee id="2434" function="default"/>
+	<melee id="2436" function="default"/>
+	<melee id="2437" function="default"/>
+	<melee id="2444" function="default"/>
+	<melee id="2445" function="default"/>
+	<melee id="2452" function="default"/>
+	<melee id="2453" function="default"/>
+	<melee id="3961" function="default"/>
+	<melee id="3966" function="default"/>
+	
+	<!-- Distance -->
+	<distance id="2455" function="default"/> <!-- Crossbow -->
+	<distance id="2456" function="default"/> <!-- Bow -->
+
+ 	<!-- Ammunition -->
+	<distance id="2545" function="script" script="poison_arrow.lua"/>
+	<distance id="2546" function="script" script="explosive_arrow.lua"/>
+	<distance id="2547" function="default"/> <!-- Power Bolt -->
+	<distance id="2543" function="default"/> <!-- Bolt -->
+	<distance id="2544" function="default"/> <!-- Arrow -->
+</weapons>

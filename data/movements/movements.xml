@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+
+<movements>
+
+	<!-- Citizen teleport -->
+	<moveevent event="StepIn" itemid="1387" script="citizen.lua"/>
+	
+	<!-- Pitfalls -->
+	<moveevent event="StepIn" itemid="293" script="increment.lua"/>
+	<moveevent event="StepIn" itemid="461" script="increment.lua"/>
+	<moveevent event="StepIn" itemid="3310" script="increment.lua"/>
+	
+	<!-- Campfires -->
+	<moveevent event="StepIn" itemid="1423" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1423" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1424" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1424" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1425" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1425" function="onAddField"/>
+
+    <!-- Fields -->
+	<moveevent event="StepIn" itemid="1487" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1487" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1488" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1488" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1489" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1489" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1490" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1490" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1491" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1491" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1492" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1492" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1493" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1493" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1494" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1494" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1495" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1495" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1496" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1496" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1497" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1497" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1498" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1498" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1499" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1499" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1500" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1500" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1501" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1501" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1502" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1502" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1503" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1503" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1504" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1504" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1505" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1505" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1506" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1506" function="onAddField"/>
+
+	<moveevent event="StepIn" itemid="1507" function="onStepInField"/>
+	<moveevent event="AddItem" itemid="1507" function="onAddField"/>
+	
+	<!-- Doors -->
+	<moveevent event="StepOut" itemid="1224" script="doors/door_close_vertical.lua"/>
+	<moveevent event="StepOut" itemid="1226" script="doors/door_close_horizontal.lua"/>
+	<moveevent event="StepOut" itemid="1228" script="doors/door_close_vertical.lua"/>
+	<moveevent event="StepOut" itemid="1230" script="doors/door_close_horizontal.lua"/>
+	<moveevent event="StepOut" itemid="1242" script="doors/door_close_vertical.lua"/>
+	<moveevent event="StepOut" itemid="1244" script="doors/door_close_horizontal.lua"/>
+	<moveevent event="StepOut" itemid="1246" script="doors/door_close_vertical.lua"/>
+	<moveevent event="StepOut" itemid="1248" script="doors/door_close_horizontal.lua"/>
+	<moveevent event="StepOut" itemid="1256" script="doors/door_close_vertical.lua"/>
+	<moveevent event="StepOut" itemid="1258" script="doors/door_close_horizontal.lua"/>
+	<moveevent event="StepOut" itemid="1260" script="doors/door_close_vertical.lua"/>
+	<moveevent event="StepOut" itemid="1262" script="doors/door_close_horizontal.lua"/>
+	<moveevent event="StepOut" itemid="3541" script="doors/door_close_horizontal.lua"/>
+	<moveevent event="StepOut" itemid="3543" script="doors/door_close_horizontal.lua"/>
+	<moveevent event="StepOut" itemid="3550" script="doors/door_close_vertical.lua"/>
+	<moveevent event="StepOut" itemid="3552" script="doors/door_close_vertical.lua"/>
+	
+	<!-- Adding locked doors to the map -->
+	<moveevent event="AddItem" itemid="1209" script="doors/onadd_lockeddoor.lua"/>
+	<moveevent event="AddItem" itemid="1212" script="doors/onadd_lockeddoor.lua"/>
+	<moveevent event="AddItem" itemid="1231" script="doors/onadd_lockeddoor.lua"/>
+	<moveevent event="AddItem" itemid="1234" script="doors/onadd_lockeddoor.lua"/>
+	<moveevent event="AddItem" itemid="1249" script="doors/onadd_lockeddoor.lua"/>
+	<moveevent event="AddItem" itemid="1252" script="doors/onadd_lockeddoor.lua"/>
+	<moveevent event="AddItem" itemid="3535" script="doors/onadd_lockeddoor.lua"/>
+	<moveevent event="AddItem" itemid="3544" script="doors/onadd_lockeddoor.lua"/>
+	<moveevent event="AddItem" itemid="4913" script="doors/onadd_lockeddoor.lua"/>
+	<moveevent event="AddItem" itemid="4916" script="doors/onadd_lockeddoor.lua"/>
+	
+	<!-- Switch Tiles -->
+	<moveevent event="StepIn" itemid="416" script="switch_tile.lua"/>
+	<moveevent event="StepOut" itemid="417" script="switch_tile.lua"/>
+	<moveevent event="StepOut" itemid="425" script="switch_tile.lua"/>
+	<moveevent event="StepIn" itemid="426" script="switch_tile.lua"/>
+	<moveevent event="StepIn" itemid="446" script="switch_tile.lua"/>
+	<moveevent event="StepOut" itemid="447" script="switch_tile.lua"/>
+	<moveevent event="StepIn" itemid="3216" script="switch_tile.lua"/>
+	<moveevent event="StepOut" itemid="3217" script="switch_tile.lua"/>
+	
+	<!-- Traps -->
+	<moveevent event="StepIn" itemid="1510" script="trap.lua"/>
+	<moveevent event="StepOut" itemid="1511" script="trap.lua"/>
+	<moveevent event="StepIn" itemid="1513" script="trap.lua"/>
+	<moveevent event="StepIn" itemid="2579" script="trap.lua"/>
+	<moveevent event="RemoveItem" itemid="2579" script="trap.lua"/>
+	<moveevent event="AddItem" tileitem="1" itemid="2579" script="trap.lua"/>
+	<moveevent event="StepIn" itemid="4208" script="trap.lua"/>
+	<moveevent event="StepOut" itemid="4209" script="trap.lua"/>
+	
+	<!-- Items -->
+	<!-- Boots -->
+	<moveevent event="Equip" itemid="2195" slot="feet" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2195" slot="feet" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2640" slot="feet" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2640" slot="feet" function="onDeEquipItem"/>
+
+	<!-- Amulets -->
+	<moveevent event="Equip" itemid="2161" slot="necklace" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2161" slot="necklace" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2170" slot="necklace" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2170" slot="necklace" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2172" slot="necklace" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2172" slot="necklace" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2197" slot="necklace" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2197" slot="necklace" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2198" slot="necklace" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2198" slot="necklace" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2199" slot="necklace" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2199" slot="necklace" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2200" slot="necklace" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2200" slot="necklace" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2201" slot="necklace" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2201" slot="necklace" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2173" slot="necklace" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2173" slot="necklace" function="onDeEquipItem"/>
+
+	<!-- Rings -->
+	<moveevent event="Equip" itemid="2164" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2164" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2165" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2166" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2167" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2168" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2169" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2202" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2202" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2203" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2203" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2204" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2204" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2205" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2205" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2206" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2206" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2207" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2208" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2209" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2210" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2210" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2211" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2211" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2212" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2212" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2213" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2214" slot="ring" function="onEquipItem"/>
+	<moveevent event="Equip" itemid="2215" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2215" slot="ring" function="onDeEquipItem"/>
+	<moveevent event="Equip" itemid="2216" slot="ring" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2216" slot="ring" function="onDeEquipItem"/>
+	
+	<!-- Helmets -->
+	<moveevent event="Equip" itemid="2343" slot="head" function="onEquipItem"/>
+	<moveevent event="DeEquip" itemid="2343" slot="head" function="onDeEquipItem"/>
+
+	<!-- .:: Rookgaard ::. -->
+	<moveevent event="StepIn" actionid="11001" script="rookgaard/level_bridge.lua"/>
+	<moveevent event="StepIn" actionid="11002" script="rookgaard/premium_bridge.lua"/>
+	<moveevent event="StepIn" actionid="11003" script="rookgaard/sword_of_fury.lua"/>
+	<moveevent event="StepIn" actionid="11004" script="rookgaard/sword_of_fury.lua"/>
+	
+	<!-- .:: Tibia ::. -->
+	<moveevent event="RemoveItem" actionid="25012" script="tibia/parchment.lua"/><!-- Parchment Room Quest -->
+	<movevent event="StepIn" actionid="25013" script="tibia/edrondemons_walls.lua" /><!-- Demon Helmet Quest -->
+	<movevent event="StepOut" actionid="25013" script="tibia/edrondemons_walls.lua" /><!-- Demon Helmet Quest -->
+	<!-- Draconia Quest by Nottinghster -->
+	<moveevent event="StepIn" actionid="988" script="Draconia Quest/4 levers.lua"/>
+	<moveevent event="StepIn" uniqueid="5678" script="Draconia Quest/piso_parede1.lua"/>
+	<moveevent event="StepOut" uniqueid="5678" script="Draconia Quest/piso_parede1.lua"/>
+	<moveevent event="StepIn" uniqueid="5679" script="Draconia Quest/piso_parede2.lua"/>
+	<moveevent event="StepOut" uniqueid="5679" script="Draconia Quest/piso_parede2.lua"/>
+	<moveevent event="StepIn" actionid="2112" script="Draconia Quest/fetish.lua"/>
+	
+	<!-- The Queen of the Banshees Quest by Nottinghster -->
+	<moveevent event="StepIn" actionid="888" script="The Queen of the Banshees Quest/banshee_tiles.lua"/>
+	<moveevent event="StepIn" actionid="889" script="The Queen of the Banshees Quest/banshee_tiles.lua"/>
+	<moveevent event="StepIn" actionid="890" script="The Queen of the Banshees Quest/banshee_tiles.lua"/>
+	<moveevent event="StepIn" actionid="1337" script="The Queen of the Banshees Quest/blood_tile.lua"/>
+	<moveevent event="StepIn" actionid="1335" script="The Queen of the Banshees Quest/white_black_pearl 1.lua"/>
+	<moveevent event="StepIn" actionid="1336" script="The Queen of the Banshees Quest/white_black_pearl 2.lua"/>
+	<moveevent event="StepIn" actionid="987" script="The Queen of the Banshees Quest/6 levers.lua"/>
+	<moveevent event="StepIn" actionid="689" script="The Queen of the Banshees Quest/first_seal.lua"/>
+	<moveevent event="StepIn" actionid="690" script="The Queen of the Banshees Quest/third_seal_summon.lua"/>
+	<moveevent event="StepIn" actionid="691" script="The Queen of the Banshees Quest/third_seal_levers.lua"/>
+	<moveevent event="StepIn" actionid="692" script="The Queen of the Banshees Quest/white_black_flame.lua"/>
+	<moveevent event="AddItem" tileitem="1" actionid="693" script="The Queen of the Banshees Quest/blood_effect.lua"/>
+	
+	<!-- Paradox Tower Quest by Nottinghster -->
+	<moveevent event="StepIn" actionid="50006" script="Paradox Tower Quest/paradox_deadtree.lua"/>
+	<moveevent event="StepIn" actionid="50014" script="Paradox Tower Quest/paradox_entrance.lua"/>
+	<moveevent event="StepIn" actionid="50003" script="Paradox Tower Quest/paradox_lvl1.lua"/>
+	<moveevent event="AddItem" tileitem="1" actionid="50004" script="Paradox Tower Quest/paradox_lvl3.lua"/>
+	<moveevent event="RemoveItem" tileitem="1" actionid="50004" script="Paradox Tower Quest/paradox_lvl3.lua"/>
+	<moveevent event="StepIn" actionid="50009" script="Paradox Tower Quest/paradox_questroom.lua"/>
+	<moveevent event="StepIn" actionid="50010" script="Paradox Tower Quest/paradox_questroom.lua"/>
+	<moveevent event="StepIn" actionid="50011" script="Paradox Tower Quest/paradox_questroom.lua"/>
+	<moveevent event="StepIn" actionid="50012" script="Paradox Tower Quest/paradox_questroom.lua"/>
+	<moveevent event="StepIn" actionid="50013" script="Paradox Tower Quest/paradox_exit.lua"/>
+	
+	<!-- Pits of Inferno -->
+	<moveevent event="AddItem" tileitem="1" uniqueid="10200" script="The Pits of Inferno Quest/GraveEntrance.lua"/>
+	<moveevent event="StepIn" actionid="50001" script="The Pits of Inferno Quest/MagicWallEntrance.lua"/>
+	<moveevent event="StepIn" uniqueid="10202" script="The Pits of Inferno Quest/MagicWallExit.lua"/>	
+	
+	<!-- The Postman Missions Quest -->
+	<moveevent event="AddItem" tileitem="1" actionid="50015" script="The Postman Missions Quest/letter_mail.lua"/>
+	
+	<!-- .:: The Ancients Tombs Quest by Nottinghster ::. -->
+	<moveevent event="StepIn" tileitem="1" actionid="13002" script="The Ancient Tombs Quest/helmet.lua"/>
+	
+	<!-- Omruc -->
+	<moveevent event="StepIn" actionid="5999" script="The Ancient Tombs Quest/Omruc/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="6000" script="The Ancient Tombs Quest/Omruc/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="6001" script="The Ancient Tombs Quest/Omruc/magic_tiles.lua"/>
+	
+	<!-- Thalas -->
+	<moveevent event="StepIn" actionid="6003" script="The Ancient Tombs Quest/Thalas/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="6004" script="The Ancient Tombs Quest/Thalas/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="13000" script="The Ancient Tombs Quest/Thalas/alavancas.lua"/>
+	<moveevent event="StepIn" actionid="6015" script="The Ancient Tombs Quest/Thalas/poison.lua"/>
+	
+	<!-- Dipthrah -->
+	<moveevent event="StepIn" actionid="6005" script="The Ancient Tombs Quest/Dipthrah/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="6006" script="The Ancient Tombs Quest/Dipthrah/coalbasin.lua"/>
+	
+	<!-- Mahrdis -->
+	<moveevent event="StepIn" actionid="6007" script="The Ancient Tombs Quest/Mahrdis/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="6008" script="The Ancient Tombs Quest/Mahrdis/coalbasin.lua"/>
+	
+	<!-- Ashmunrah-->
+	<moveevent event="StepIn" actionid="13001" script="The Ancient Tombs Quest/Ashmunrah/alavancas.lua"/>
+	<moveevent event="StepIn" actionid="6009" script="The Ancient Tombs Quest/Ashmunrah/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="6018" script="The Ancient Tombs Quest/Ashmunrah/coalbasin.lua"/>
+	
+	<!-- Rahemos-->
+	<moveevent event="StepIn" actionid="6011" script="The Ancient Tombs Quest/Rahemos/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="6012" script="The Ancient Tombs Quest/Rahemos/coalbasin.lua"/>
+	
+	<!-- Vashresamun-->
+	<moveevent event="StepIn" actionid="6013" script="The Ancient Tombs Quest/Vashresamun/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="6014" script="The Ancient Tombs Quest/Vashresamun/coalbasin.lua"/>
+	
+	<!-- Morguthis -->
+	<moveevent event="StepIn" actionid="6016" script="The Ancient Tombs Quest/Morguthis/coalbasin.lua"/>
+	<moveevent event="StepIn" actionid="6017" script="The Ancient Tombs Quest/Morguthis/coalbasin.lua"/>
+
+</movements>
