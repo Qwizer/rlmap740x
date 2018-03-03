@@ -9,7 +9,7 @@ E uma base MMORPG gratuita, que cria um servidor baseado na versão 7.40 do Tibi
 
 ### Problemas e Suporte
 
-* XTIBIA[AQUI](http://www.xtibia.com)
+* XTIBIA [AQUI](http://www.xtibia.com)
 * Whatsapp: (66) 98427-4493
 * Skype: onjogos
 * Discord: Qwizer#3300
