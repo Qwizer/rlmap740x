@@ -1,6 +1,7 @@
-E uma baseMMORPG gratuita, que cria um servidor baseado na versão 7.40 do Tibia do CIPSoft. É um inicio de projeto de servidor OpenTibia.
+### Introdução
+E uma base MMORPG gratuita, que cria um servidor baseado na versão 7.40 do Tibia do CIPSoft. É um inicio de projeto de servidor OpenTibia.
 
-### Informaçoes
+### Informações
 
 * Website MyAAC,  [AQUI](https://github.com/slawkens/myaac).
 * Flags calculator [AQUI](https://diegorodriguesvieira.github.io/flags-calculator/).
